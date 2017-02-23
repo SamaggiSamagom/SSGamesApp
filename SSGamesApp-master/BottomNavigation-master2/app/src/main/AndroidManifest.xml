@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.gifts.bottomnavigation" >
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcherss"
+        android:label="Samaggi Games"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme" >
+        <activity android:name=".MainActivity" >
+
+        </activity>
+        <activity android:name=".splash_screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".FourButtonsActivity" >
+
+        </activity>
+
+        <activity android:name=".FootballScores" >
+
+        </activity>
+
+        <activity android:name=".info_view" >
+
+        </activity>
+        <activity android:name=".eventtime_view" >
+
+        </activity>
+        <activity android:name=".eventmap_view" >
+
+        </activity>
+        <activity android:name=".sd_view" >
+
+        </activity>
+        <activity android:name=".pl_view" >
+
+        </activity>
+        <activity android:name=".timetable_view" >
+
+        </activity>
+        <activity android:name=".bus_view" >
+
+        </activity>
+
+        <activity android:name=".football_tornament" >
+
+        </activity>
+        <activity android:name=".basketball_men_tornament" >
+
+        </activity>
+
+        <activity android:name=".basketball_women_tornament" >
+
+        </activity>
+
+        <activity android:name=".batminton_men_tornament" >
+
+        </activity>
+        <activity android:name=".batminton_women_tornament" >
+
+        </activity>
+
+        <activity android:name=".batminton_mixed_tornament" >
+
+        </activity>
+        <activity android:name=".table_men_tornament" >
+
+        </activity>
+        <activity android:name=".table_wemen_tornament" >
+
+        </activity>
+
+        <activity android:name=".dodgeball_tornament" >
+
+        </activity>
+
+        <activity android:name=".chairball_tornament" >
+
+        </activity>
+
+        <activity android:name=".chess_tornament" >
+
+        </activity>
+
+        <activity android:name=".hayha_tornament" >
+
+        </activity>
+    </application>
+
+</manifest>

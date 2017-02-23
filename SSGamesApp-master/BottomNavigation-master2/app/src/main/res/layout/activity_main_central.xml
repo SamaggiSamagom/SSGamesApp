@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+
+            android:id="@+id/imageView6"
+            android:background="@color/colorPrimary"
+            android:layout_height="60dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/logo2x" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            app:srcCompat="@drawable/appgames"
+            android:id="@+id/imageView7"
+            android:layout_marginBottom="3dp"
+            android:layout_height="140dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+
+            android:id="@+id/imageView9"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/sptsc"
+            android:layout_height="50dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:text="Menu"
+            android:layout_width="match_parent"
+            android:id="@+id/textView6"
+            android:background="@color/bb_tabletRightBorderDark"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:layout_marginBottom="5dp"
+            android:layout_height="30dp"
+            android:paddingTop="4dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="2.03"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="127dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    app:srcCompat="@drawable/anncic"
+                    android:id="@+id/a1i"
+                    android:background="@color/bb_darkBackgroundColor"
+                    android:layout_height="100dp" />
+
+                <TextView
+                    android:text="Annoucment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ta1"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="133dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    app:srcCompat="@drawable/infobar"
+                    android:id="@+id/a2i"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_height="100dp" />
+
+                <TextView
+                    android:text="Information/Maps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ta2"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    app:srcCompat="@drawable/rulebook"
+                    android:id="@+id/a3i"
+                    android:background="@color/bb_darkBackgroundColor"
+                    android:layout_height="100dp" />
+
+                <TextView
+                    android:text="Rules"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ta3"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="2.03"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="127dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    app:srcCompat="@drawable/calsc"
+                    android:id="@+id/b1i"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_height="100dp" />
+
+                <TextView
+                    android:text="Day Schdule"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tb1"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="133dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    app:srcCompat="@drawable/tableic"
+                    android:id="@+id/b2i"
+                    android:background="@color/bb_darkBackgroundColor"
+                    android:layout_height="100dp" />
+
+                <TextView
+                    android:text="Timetable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tb2"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    app:srcCompat="@drawable/busic"
+                    android:id="@+id/b3i"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_height="100dp" />
+
+                <TextView
+                    android:text="Bus Times"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Matches"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="2.03"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="127dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    app:srcCompat="@drawable/scoreic"
+                    android:id="@+id/c1i"
+                    android:background="@color/bb_darkBackgroundColor"
+                    android:layout_height="100dp" />
+
+                <TextView
+                    android:text="Score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tc1"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="133dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    app:srcCompat="@drawable/staff"
+                    android:id="@+id/c2i"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_height="100dp" />
+
+                <TextView
+                    android:text="Staffing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tc2"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    app:srcCompat="@drawable/contactic"
+                    android:id="@+id/c3i"
+                    android:background="@color/bb_darkBackgroundColor"
+                    android:layout_height="100dp" />
+
+                <TextView
+                    android:text="Staff Contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tc3"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
