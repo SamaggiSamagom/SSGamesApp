@@ -12,7 +12,10 @@ import com.android.gifts.bottomnavigation.FootballScores;
 import com.android.gifts.bottomnavigation.R;
 
 
+
 public class scores extends Fragment {
+
+
 
     public scores() {
         // Required empty public constructor
@@ -50,6 +53,7 @@ public class scores extends Fragment {
                 startActivity(intent);
             }
         });
+
 
         return v;
     }
