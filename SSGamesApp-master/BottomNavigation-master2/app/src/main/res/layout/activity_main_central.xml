@@ -11,15 +11,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:weightSum="1">
-
         <ImageView
             android:layout_width="match_parent"
-
-            android:id="@+id/imageView6"
-            android:background="@color/colorPrimary"
-            android:layout_height="60dp"
-            android:layout_marginBottom="5dp"
-            app:srcCompat="@drawable/logo2x" />
+            android:id="@+id/imageView3"
+            android:src="@drawable/sscico"
+            android:background="@color/colorPrimaryDark"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_height="5dp" />
 
         <ImageView
             android:layout_width="match_parent"
@@ -205,7 +205,7 @@
                     android:layout_height="100dp" />
 
                 <TextView
-                    android:text="Score"
+                    android:text="Event Map"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/tc1"
@@ -225,7 +225,7 @@
                     android:layout_height="100dp" />
 
                 <TextView
-                    android:text="Staffing"
+                    android:text="Sportsdock Map"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/tc2"
@@ -245,7 +245,7 @@
                     android:layout_height="100dp" />
 
                 <TextView
-                    android:text="Staff Contact"
+                    android:text="Powerleague Map"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/tc3"
