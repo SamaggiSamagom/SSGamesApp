@@ -35,6 +35,7 @@ public class splash_screen extends AppCompatActivity {
     public void launchMain(){
         Intent intent = new Intent(splash_screen.this, FourButtonsActivity.class);
         startActivity(intent);
+        finish();
     }
 
 }
