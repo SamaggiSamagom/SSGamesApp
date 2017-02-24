@@ -10,13 +10,7 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
         android:weightSum="1">
-=======
-        android:weightSum="1"
-        android:id="@+id/fragment_container">
-
->>>>>>> origin/master
         <ImageView
             android:layout_width="match_parent"
             android:id="@+id/imageView3"
@@ -76,7 +70,7 @@
                     android:layout_height="100dp" />
 
                 <TextView
-                    android:text="Annoucment"
+                    android:text="Event News"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/ta1"
@@ -205,7 +199,7 @@
 
                 <ImageButton
                     android:layout_width="match_parent"
-                    app:srcCompat="@drawable/scoreic"
+                    app:srcCompat="@drawable/sptsc"
                     android:id="@+id/c1i"
                     android:background="@color/bb_darkBackgroundColor"
                     android:layout_height="100dp" />
@@ -225,13 +219,13 @@
 
                 <ImageButton
                     android:layout_width="match_parent"
-                    app:srcCompat="@drawable/staff"
                     android:id="@+id/c2i"
                     android:background="@color/colorPrimaryDark"
-                    android:layout_height="100dp" />
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/plm" />
 
                 <TextView
-                    android:text="Sportsdock Map"
+                    android:text="Social Feed"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/tc2"
@@ -245,13 +239,13 @@
 
                 <ImageButton
                     android:layout_width="match_parent"
-                    app:srcCompat="@drawable/contactic"
                     android:id="@+id/c3i"
                     android:background="@color/bb_darkBackgroundColor"
-                    android:layout_height="100dp" />
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/sportlogo" />
 
                 <TextView
-                    android:text="Powerleague Map"
+                    android:text="Emergency Contacts"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/tc3"

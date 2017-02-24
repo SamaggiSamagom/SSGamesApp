@@ -38,7 +38,7 @@ public class FourButtonsActivity extends AppCompatActivity {
 //        bottomBar.useFixedMode();
 
         bottomBar.setFragmentItems(getSupportFragmentManager(), R.id.fragmentContainer,
-                new BottomBarFragment(new About(), R.drawable.ic_update_white_24dp, "Menu"),
+                new BottomBarFragment(new About(), R.drawable.sptsc, "Menu"),
                 new BottomBarFragment(new newsfrag(), R.drawable.scoreic, "News"),
                 new BottomBarFragment(new information(), R.drawable.infobar, "Information"),
                 new BottomBarFragment(new tornament(), R.drawable.toric, "Timetable")

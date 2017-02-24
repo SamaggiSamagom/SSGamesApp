@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.samaggiconnect.app.samaggiconnect.MainMenu"
+        android:background="#FFE1E1E1">
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/imageView3"
+            android:src="@drawable/sscico"
+            android:background="@color/colorPrimaryDark"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_height="5dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/imageView2"
+            android:background="@color/bb_darkBackgroundColor"
+            android:layout_below="@+id/imageView"
+            android:layout_height="40dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            app:srcCompat="@drawable/rulebook" />
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:id="@+id/geninfob"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_below="@+id/imageView2"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:foreground="#9c404040"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/sportbck" />
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:id="@+id/baskm"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_below="@+id/geninfob"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:foreground="#9c404040"
+            android:background="@drawable/basketball" />
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:id="@+id/plb"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_below="@+id/baskm"
+            android:layout_centerHorizontal="true"
+            android:foreground="#9c404040"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/basketballf" />
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:id="@+id/badm"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_below="@+id/plb"
+            android:layout_centerHorizontal="true"
+            android:foreground="#9c404040"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/fmbat" />
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:id="@+id/transb"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_below="@+id/badm"
+            android:layout_centerHorizontal="true"
+            android:foreground="#9c404040"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/mbat" />
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:id="@+id/badmix"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_below="@+id/transb"
+            android:layout_centerHorizontal="true"
+            android:foreground="#9c404040"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/batmintonmixed" />
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:id="@+id/tabkem"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_below="@+id/badmix"
+            android:layout_centerHorizontal="true"
+            android:foreground="#9c404040"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/tabletennis" />
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:id="@+id/button2"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_below="@+id/tabkem"
+            android:layout_centerHorizontal="true"
+            android:foreground="#9c404040"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/tabletennis" />
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:id="@+id/dodgeb"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_below="@+id/button2"
+            android:layout_centerHorizontal="true"
+            android:foreground="#9c404040"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/dogeball" />
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:id="@+id/chairb"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_below="@+id/dodgeb"
+            android:layout_centerHorizontal="true"
+            android:foreground="#9c404040"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/chairball" />
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:id="@+id/chessb"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_below="@+id/chairb"
+            android:layout_centerHorizontal="true"
+            android:foreground="#9c404040"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/chess" />
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:id="@+id/hayharb"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_below="@+id/chessb"
+            android:layout_centerHorizontal="true"
+            android:foreground="#9c404040"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Football"
+            android:id="@+id/textView23"
+            android:layout_alignTop="@+id/geninfob"
+            android:layout_alignParentStart="true"
+            android:textColor="#e2ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="15dp"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Basketball Men"
+            android:id="@+id/textView24"
+            android:textColor="#e2ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignTop="@+id/baskm"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Basketball Female"
+            android:id="@+id/textView25"
+            android:textColor="#e2ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/baskm"
+            android:layout_alignParentStart="true"
+            android:textSize="15dp"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView26"
+            android:textColor="#e2ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignTop="@+id/badm"
+            android:layout_alignParentStart="true"
+            android:textSize="15dp"
+            android:layout_alignParentLeft="true"
+            android:text="Badminton Men" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Badminton Women"
+            android:id="@+id/textView27"
+            android:textColor="#e2ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:layout_alignTop="@+id/transb"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Badminton Mixed"
+            android:id="@+id/textView28"
+            android:textColor="#e2ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:layout_alignTop="@+id/badmix"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Table Tennis Men"
+            android:id="@+id/textView29"
+            android:textColor="#e2ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:layout_alignTop="@+id/tabkem"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Table Tennis Women"
+            android:id="@+id/textView30"
+            android:textColor="#e2ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:layout_alignTop="@+id/button2"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Dodgeball"
+            android:id="@+id/textView31"
+            android:textColor="#e2ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:layout_alignTop="@+id/dodgeb"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Chairball"
+            android:id="@+id/textView32"
+            android:textColor="#e2ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:layout_alignTop="@+id/chairb"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Chess"
+            android:id="@+id/textView33"
+            android:textColor="#e2ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:layout_alignTop="@+id/chessb"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Hayha Games"
+            android:id="@+id/textView34"
+            android:textColor="#e2ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:layout_alignTop="@+id/hayharb"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true" />
+
+    </RelativeLayout>
+</ScrollView>

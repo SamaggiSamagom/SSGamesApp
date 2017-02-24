@@ -31,6 +31,9 @@
         <activity android:name=".new_view" >
 
         </activity>
+        <activity android:name=".socialfeeds" >
+
+        </activity>
         <activity android:name=".rule_view" >
 
         </activity>
