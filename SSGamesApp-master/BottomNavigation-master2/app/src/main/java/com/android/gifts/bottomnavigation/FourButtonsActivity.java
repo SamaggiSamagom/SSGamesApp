@@ -9,6 +9,7 @@ import android.view.WindowManager;
 import com.android.gifts.bottomnavigation.fragments.About;
 import com.android.gifts.bottomnavigation.fragments.events;
 import com.android.gifts.bottomnavigation.fragments.information;
+import com.android.gifts.bottomnavigation.fragments.newsfrag;
 import com.android.gifts.bottomnavigation.fragments.others;
 import com.android.gifts.bottomnavigation.fragments.scores;
 import com.android.gifts.bottomnavigation.fragments.services;
@@ -23,11 +24,14 @@ public class FourButtonsActivity extends AppCompatActivity {
     private Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
+
+
         setContentView(R.layout.activity_four_buttons);
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+      setSupportActionBar(toolbar);
 
         bottomBar = BottomBar.attach(this, savedInstanceState);
 
@@ -35,9 +39,9 @@ public class FourButtonsActivity extends AppCompatActivity {
 
         bottomBar.setFragmentItems(getSupportFragmentManager(), R.id.fragmentContainer,
                 new BottomBarFragment(new About(), R.drawable.ic_update_white_24dp, "Menu"),
+                new BottomBarFragment(new newsfrag(), R.drawable.scoreic, "News"),
                 new BottomBarFragment(new information(), R.drawable.infobar, "Information"),
-                new BottomBarFragment(new tornament(), R.drawable.toric, "Timetable"),
-                new BottomBarFragment(new scores(), R.drawable.scoreic, "Scores")
+                new BottomBarFragment(new tornament(), R.drawable.toric, "Timetable")
                 );
 
         // Setting colors for different tabs when there's more than three of them.
@@ -59,7 +63,7 @@ public class FourButtonsActivity extends AppCompatActivity {
         });
 
         // Make a Badge for the first tab, with red background color and a value of "4".
-        BottomBarBadge unreadMessages = bottomBar.makeBadgeForTabAt(1, "#E91E63", 4);
+        //BottomBarBadge unreadMessages = bottomBar.makeBadgeForTabAt(1, "#E91E63", 4);
 
 
 

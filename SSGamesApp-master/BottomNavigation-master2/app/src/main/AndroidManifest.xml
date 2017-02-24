@@ -7,7 +7,8 @@
         android:icon="@mipmap/ic_launcherss"
         android:label="Samaggi Games"
         android:supportsRtl="true"
-        android:theme="@style/MyMaterialTheme" >
+        android:theme="@style/MyMaterialTheme.Base"
+        android:screenOrientation="portrait">
         <activity android:name=".MainActivity" >
 
         </activity>
@@ -19,14 +20,20 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".FourButtonsActivity" >
+        <activity android:name=".FourButtonsActivity"
+            android:theme="@style/MyMaterialTheme.Base">
 
         </activity>
 
         <activity android:name=".FootballScores" >
 
         </activity>
+        <activity android:name=".new_view" >
 
+        </activity>
+        <activity android:name=".rule_view" >
+
+        </activity>
         <activity android:name=".info_view" >
 
         </activity>

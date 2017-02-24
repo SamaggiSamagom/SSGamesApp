@@ -23,7 +23,7 @@ public class FootballScores extends AppCompatActivity {
 //                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.football_scores);
+        setContentView(R.layout.new_view);
         browser = (WebView) findViewById(R.id.webview1);
         browser.loadUrl(url);
     }

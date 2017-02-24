@@ -14,7 +14,7 @@ public class football_tornament extends AppCompatActivity {
 //                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.football_tornament);
+        setContentView(R.layout.new_view);
         browser = (WebView) findViewById(R.id.webview1);
         browser.loadUrl(url);
     }

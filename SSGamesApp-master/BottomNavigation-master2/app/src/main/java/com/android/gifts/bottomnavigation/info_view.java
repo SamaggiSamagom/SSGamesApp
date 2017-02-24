@@ -14,7 +14,7 @@ public class info_view extends AppCompatActivity {
 //                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.info_view);
+        setContentView(R.layout.new_view);
         browser = (WebView) findViewById(R.id.webview1);
         browser.loadUrl(url);
     }
